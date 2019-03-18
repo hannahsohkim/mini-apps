@@ -1,8 +1,18 @@
 table, th, td {
-  border: 1px solid black;
+  border: 1px solid #ace;
   border-collapse: collapse;
 }
 
 th, td {
   padding: 50px;
+  font-family: Helvetica;
+}
+
+button {
+  font-size: 18px;
+  font-family: Helvetica;
+  border-width: 3px;
+  margin-top: 15px;
+  padding: 5px;
+  border-color: #ace;
 }
