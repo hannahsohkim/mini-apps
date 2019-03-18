@@ -15,6 +15,8 @@ let player2 = [];
 let turn = 'X';
 let player1Wins = false;
 let player2Wins = false;
+const playerX = prompt('Please enter your name Player X');
+const playerO = prompt('Please enter your name Player O');
 
 // Winner from last round goes first
 if (player2Wins) {
@@ -58,13 +60,13 @@ function checkWin () {
       if (player1.includes(wins[i][j])) {
         one++;
         if (one === 3) {
-          alert('Player X wins')
+          alert(`${playerX} wins`)
           player1Wins = true;
         }
       } else if (player2.includes(wins[i][j])) {
           two++;
           if (two === 3) {
-            alert('Player O wins')
+            alert(`${playerO} wins`)
             player2Wins = true;
           }
       }
