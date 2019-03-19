@@ -33,6 +33,8 @@ document.getElementById('refresh').addEventListener('click', function() {
   for (let i = 0; i < boxes.length; i++) {
     boxes[i].innerHTML = '';
   }
+  player1 = [];
+  player2 = [];
 })
 
 // Marks X or O
