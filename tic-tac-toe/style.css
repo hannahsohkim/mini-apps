@@ -1,6 +1,7 @@
 table, th, td {
   border: 1px solid #ace;
   border-collapse: collapse;
+  border-spacing: 0;
 }
 
 th, td {
@@ -12,7 +13,21 @@ button {
   font-size: 18px;
   font-family: Helvetica;
   border-width: 3px;
-  margin-top: 15px;
+  margin-top: 20px;
   padding: 5px;
   border-color: #ace;
+  border-radius: 10px;
+  margin-left: 110px;
+}
+
+h1 {
+  margin-left: 68px;
+  font-family: Helvetica;
+  color: #ace;
+  text-shadow:
+  -1px -1px 0 #4e83d8,
+  1px -1px 0 #4e83d8,
+  -1px 1px 0 #4e83d8,
+  1px 1px 0 #4e83d8;
+
 }

@@ -51,7 +51,7 @@ function addMove (event) {
   }
 }
 
-
+// Check if either play won
 function checkWin () {
   for (var i = 0; i < wins.length; i++) {
     let one = 0;
@@ -69,8 +69,9 @@ function checkWin () {
             alert(`${playerO} wins`)
             player2Wins = true;
           }
+        }
       }
     }
   }
-}
+
 
